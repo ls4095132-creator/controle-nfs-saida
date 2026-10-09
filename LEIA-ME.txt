@@ -1,0 +1,15 @@
+CONTROLE INTERNO - NFs DE SAÍDA — V2 FIREBASE
+
+Esta versão está preparada para:
+- Firebase Authentication (E-mail/Senha)
+- Firebase Realtime Database
+- NFs, itens e histórico gravados no caminho notas_saida
+- Sem localStorage para os dados das NFs
+
+IMPORTANTE:
+1. Crie pelo Firebase Console pelo menos um usuário em Authentication > Users.
+2. As regras do Realtime Database ainda precisam ser configuradas para permitir acesso somente a usuários autenticados.
+3. Abra index.html após criar o usuário e faça login.
+4. Não deixe o banco público. A próxima etapa é configurar as Security Rules de produção.
+
+O firebaseConfig foi inserido usando os dados do aplicativo Web mostrado no Firebase Console.
